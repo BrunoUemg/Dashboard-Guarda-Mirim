@@ -16,7 +16,7 @@ It has an agile panel to manage the company, transforming the data into easy to 
 
 ### login responsive:
 
-![login-desktop](images-readme/login-desktop.png)
+![login-desktop](./images-readme/login-desktop.png)
 
 
 
@@ -26,10 +26,10 @@ It has an agile panel to manage the company, transforming the data into easy to 
 
 - Desktop:
 
-![dashboard-desktop](images-readme/dashboard-desktop.png)
+![dashboard-desktop](./images-readme/dashboard-desktop.png)
 
 
 
 - Mobile:
 
-![dashboard-mobile](images-readme/dashboard-mobile.png)
+![dashboard-mobile](./images-readme/dashboard-mobile.png)
