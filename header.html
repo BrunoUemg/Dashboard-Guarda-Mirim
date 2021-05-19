@@ -45,8 +45,8 @@
         <main id="mainContent">
             <!--Topo da pagina-->
             <header>
-                <i id="iconMenu" onclick="responsiveSideBar()" class="fas fa-bars"></i>
-               <a href="login_gm.html"><i class="fas fa-sign-out-alt"></i>Sair</a>
+                <i id="iconMenu" onclick="responsiveSideBar()"  class="fas fa-bars"></i>
+               <a  data-bs-toggle="modal" data-bs-target="#saida"><i class="fas fa-sign-out-alt"></i>Sair</a>
               
             </header>
                 <!--Conteudo central da pagina-->
@@ -64,6 +64,24 @@
         </main>
     </div>
 
+    <!--Modal de saida-->
+
+    <div class="modal" tabindex="-1" id="saida">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Logout</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Deseja sair do sistema ?</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" onclick="location.href='login_gm.html'" class="btn btn-danger">Sair</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
 <!--Jquery datatables-->
 <script src="js/jquery-3.4.1.min.js"></script>  
